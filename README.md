@@ -4,6 +4,8 @@
 
 A Project Management API é uma aplicação RESTful desenvolvida com Spring Boot para gerenciar clientes, projetos e atividades. Este sistema foi criado como parte de um teste para a empresa Grupo AG Capital, visando substituir um sistema legado desktop e atender às necessidades de acessibilidade via internet, especialmente em tempos de COVID-19, onde colaboradores e clientes precisam acessar a plataforma remotamente.
 
+A API é desenvolvida na arquitetura em camadas seguindo o padrão MVC (Model-View-Controller), facilitando a separação de responsabilidades e a manutenção do código.
+
 O sistema é projetado para gerenciar os projetos da empresa, facilitando o planejamento e acompanhamento dos times, projetos, clientes e tarefas.
 
 
