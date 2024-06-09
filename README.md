@@ -31,7 +31,7 @@ PgAdmin com login através de **admin@gmail.com** e senha **admin** acessível e
 http://localhost:16543/login?next=%2F
 ```
 ##### Adicione um Novo Servidor no PgAdmin:
-![pgAdmin](https://github.com/Ernilson/Project-Management-API/assets/30840118/7133eafb-17d4-409e-aede-ca671e0259c5)
+![pgAdmin](https://github.com/Ernilson/Project-Management-API/assets/30840118/100ccf93-1508-4823-ba71-f119811581c9)
 
 **Observação:** Caso não opte por inicializar a API via Docker, será necessário criar o banco de dados manualmente.
 
@@ -43,6 +43,8 @@ http://localhost:16543/login?next=%2F
 - Banco de Dados PostgreSQL
 - Docker
 - Swagger
+- JUnit
+- Mockito
 
 ## A API fornece os seguintes endpoints:
 ```bash
@@ -71,15 +73,18 @@ POST /api/atividades
 - **Projetos**: Gerenciamento de projetos, incluindo criação, leitura, atualização e exclusão de registros. Os projetos são associados aos clientes.
 - **Atividades**: Inclusão de atividades que são associadas aos projetos e, por consequência, aos clientes.
 - **Listagem de Projetos em Aberto**: Endpoint que lista os projetos em aberto, mostrando a qual cliente pertence e permitindo visualizar a lista de atividades cadastradas para o projeto.
+
+## Testes Unitários
+A API possui testes unitários utilizando JUnit e Mockito para garantir a qualidade e a confiabilidade do código. Esses testes cobrem as funcionalidades principais dos serviços, verificando o comportamento esperado das operações de CRUD e outros serviços oferecidos pela aplicação.
   
 ## Diagrama de Classe
-![Diagrama de Classe](https://github.com/Ernilson/Project-Management-API/assets/30840118/d162e957-8ab5-4d3d-a2e9-1a39e574b1fb)
+![Diagrama de Classe](https://github.com/Ernilson/Project-Management-API/assets/30840118/05ed2b82-225e-4dfc-a447-24f38b1ea557)
 
 ## Diagrama Entidade-Relacionamento
-![DER](https://github.com/Ernilson/Project-Management-API/assets/30840118/87ca383f-fe8f-4739-a00e-66e638dd53f7)
+![DER](https://github.com/Ernilson/Project-Management-API/assets/30840118/4615d7e4-d12c-4fe8-ba1c-1960922988c8)
 
 ## Tratamento de Erro de Validação
-![Erro](https://github.com/Ernilson/Project-Management-API/assets/30840118/d78bddad-3548-44a7-9845-6e2c86545bbf)
+![Erro](https://github.com/Ernilson/Project-Management-API/assets/30840118/587d5eb2-35bd-4202-8af7-94cbe00af468)
 
 ## Autor
 Ernilson Daniel
