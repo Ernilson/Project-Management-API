@@ -9,7 +9,7 @@ A API é desenvolvida na arquitetura em camadas seguindo o padrão MVC (Model-Vi
 O sistema é projetado para gerenciar os projetos da empresa, facilitando o planejamento e acompanhamento dos times, projetos, clientes e tarefas.
 
 
-## Inicializar Aplicação
+## Inicializar Postgresql e PgAdmin
 Navegue até o diretório docker:
 ```bash
 cd docker
@@ -35,7 +35,7 @@ http://localhost:16543/login?next=%2F
 ##### Adicione um Novo Servidor no PgAdmin:
 ![pgAdmin](https://github.com/Ernilson/Project-Management-API/assets/30840118/100ccf93-1508-4823-ba71-f119811581c9)
 
-**Observação:** Caso não opte por inicializar a API via Docker, será necessário criar o banco de dados manualmente.
+
 
 ## Tecnologias Utilizadas
 - Java 17
